@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nut.estimatecost.view.RootLayoutController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="ไฟล์">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleExit" text="ออก" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="ช่วยเหลือ">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleAbout" text="เกี่ยวกับ" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>
